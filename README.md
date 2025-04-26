@@ -1,6 +1,9 @@
 # Panel Administrativo con React
 
-![Preview de la aplicación] 
+![login](taller-react/src/assets/login.png)
+![usuarios](taller-react/src/assets/usuarios.png)
+![proveedores](taller-react/src/assets/proveedores.png)
+![cliente](taller-react/src/assets/cliente.png)
 
 ## Descripción 📝
 
