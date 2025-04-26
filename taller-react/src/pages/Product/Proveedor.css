@@ -1,0 +1,90 @@
+/* Contenedor principal */
+.proveedores-container {
+    padding: 30px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+.proveedores-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.proveedores-header h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Barra de búsqueda */
+.search-input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 350px;
+    font-size: 15px;
+}
+
+/* Iconos de proveedores */
+.provider-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Tabla */
+.rdt_Table {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.rdt_TableHead {
+    font-size: 16px;
+}
+
+/* Filas */
+.rdt_TableBody {
+    min-height: auto;
+}
+
+.rdt_TableRow {
+    height: 56px;
+}
+
+/* Paginación */
+.rdt_Pagination {
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+/* Efectos hover */
+.rdt_TableRow:hover {
+    background-color: #f8f9fa !important;
+}
+
+/* Mensaje sin resultados */
+.no-data {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Scrollbar */
+.rdt_TableBody::-webkit-scrollbar {
+    width: 8px;
+}
+
+.rdt_TableBody::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
