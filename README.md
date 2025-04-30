@@ -43,7 +43,7 @@ Panel administrativo web desarrollado con React que incluye módulos para gestio
   ```
   
   ```bash
-  npm install react-data-table-component styled-components^C
+  npm install react-data-table-component styled-components
   ```
   
   ```bash
